@@ -170,6 +170,7 @@ migration_data(){
 	cp -R 	$bakcup_path'jws.mono_bak/jexus/log' $install_path'/jexus/'
 	cp -R 	$bakcup_path'jws.mono_bak/jexus/siteconf' $install_path'/jexus/'
 	rm -rf $bakcup_path'jws.mono_bak'
+	rm -rf /usr/local/mono/lib/mono/gac/jx*
 	printf 'Complete!\n'
 }
 
